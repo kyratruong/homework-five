@@ -1,0 +1,134 @@
+.content {
+  max-width: 1000px;
+  min-height: 200px;
+  margin: 39px auto 90px;
+  //   background-color: red;
+
+  .top-container {
+    min-height: 200px;
+    margin-left: -30%;
+    // background-color: blue;
+
+    .quote {
+      width: 676px;
+      min-height: 150px;
+      // background-color: aqua;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+
+      .quote-image-holder {
+        width: 260px;
+        height: 150px;
+        background-color: pink;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .quote-text-author {
+        width: 385px;
+        height: 150px;
+        //   background-color: yellowgreen;
+        //   justify-content: space-between;
+        margin: auto;
+        position: relative;
+      }
+
+      p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-weight: bolder;
+        font-size: 16px;
+      }
+      .author {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+
+  .bottom-container {
+    min-height: 200px;
+    // background-color: green;
+    margin-top: 10px;
+    margin-left: -30%;
+
+    .quote {
+      width: 676px;
+      min-height: 150px;
+      // background-color: aqua;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+
+      .quote-image-holder {
+        width: 260px;
+        height: 150px;
+        //   background-color: pink;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .quote-text-author {
+        width: 385px;
+        height: 150px;
+        //   background-color: yellowgreen;
+        //   justify-content: space-between;
+        margin: auto;
+        position: relative;
+      }
+
+      p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-weight: bolder;
+        font-size: 16px;
+      }
+      .author {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 676px) {
+  .content {
+    .top-container {
+      .quote {
+        flex-direction: column;
+        width: 260px;
+        margin: 0 auto 20px auto;
+
+        .quote-text-author {
+          margin-top: 20px;
+          width: 100%;
+        }
+      }
+    }
+    .bottom-container {
+      .quote {
+        flex-direction: column;
+        width: 260px;
+        margin: 0 auto 20px auto;
+
+        .quote-text-author {
+          margin-top: 20px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

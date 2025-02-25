@@ -1,0 +1,34 @@
+// @media all and (min-width: 960px) {
+.about-content {
+  text-align: left;
+  padding: 5% 0;
+  // background-color: lightcoral;
+  display: block;
+  margin-bottom: 20px;
+  display: block;
+
+  .about {
+    // background-color: powderblue;
+    font-size: 60px;
+    font-family: "proxima-nova", sans-serif;
+    border-bottom: 2px solid black;
+    font-weight: normal;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+  }
+  .about-desc {
+    // max-height: 96px;
+    height: 100%;
+    max-width: 980px;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    line-height: 20px;
+
+    // margin-top: 38px;
+    // background-color: goldenrod;
+  }
+}
